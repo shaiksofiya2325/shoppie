@@ -9,6 +9,8 @@ A responsive, client-side eCommerce website built from scratch using **HTML, CSS
 
 ![Project Screenshot](./images/shoppie-ss.jpg)
 
+https://shaiksofiya2325.github.io/shoppie
+
 
 ---
 
