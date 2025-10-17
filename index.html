@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoppie - Your Friendly Online Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Shoppie</h1>
+        <div id="cart-icon" title="Open Cart">
+            <span class="material-icons-outlined">shopping_cart</span>
+            <span id="cart-count">0</span>
+        </div>
+    </header>
+
+    <main>
+        <div id="product-list-view">
+            <div id="controls-container">
+                <div id="categories-container"></div>
+                <div id="filter-sort-container">
+                    <input type="search" id="search-bar" placeholder="Search for products...">
+                    <div class="filter-group">
+                        <label for="price-filter">Max Price: ₹<span id="price-value">30000</span></label>
+                        <input type="range" id="price-filter" min="0" max="30000" step="100" value="30000">
+                    </div>
+                    <select id="sort-options">
+                        <option value="default">Sort by</option>
+                        <option value="price-asc">Price: Low to High</option>
+                        <option value="price-desc">Price: High to Low</option>
+                        <option value="name-asc">Name: A to Z</option>
+                    </select>
+                </div>
+            </div>
+            <section id="product-grid"></section>
+            <div id="no-products-message" class="hidden">
+                <h3>Oops! No products match your criteria.</h3>
+            </div>
+        </div>
+
+        <div id="product-detail-view" class="hidden"></div>
+    </main>
+    
+    <div id="cart-modal" class="hidden">
+        <div class="cart-header">
+            <h2>Your Cart</h2>
+            <button id="close-cart-btn" class="material-icons-outlined" title="Close Cart">close</button>
+        </div>
+        <div id="cart-items">
+            </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <strong>Total:</strong>
+                <span id="cart-total-price">₹0</span>
+            </div>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+    <div id="modal-overlay" class="hidden"></div>
+
+    <footer>
+        <p>&copy; 2025 Shoppie. Intrnforte!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
