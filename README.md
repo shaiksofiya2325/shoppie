@@ -7,7 +7,7 @@
 A responsive, client-side eCommerce website built from scratch using **HTML, CSS, and modern JavaScript**. This project simulates a complete online shopping experience, featuring dynamic product filtering, a persistent shopping cart using Local Storage, and a clean, mobile-first user interface.
 
 
-![Project Screenshot](./images/shoppie-screenshot.png)
+![Project Screenshot](./images/shoppie-ss.jpg)
 *(To make this work, add a screenshot named `shoppie-screenshot.png` to your `images` folder)*
 
 ---
