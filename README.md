@@ -6,8 +6,6 @@
 
 A responsive, client-side eCommerce website built from scratch using **HTML, CSS, and modern JavaScript**. This project simulates a complete online shopping experience, featuring dynamic product filtering, a persistent shopping cart using Local Storage, and a clean, mobile-first user interface.
 
-### ➡️ [Live Demo](https://your-username.github.io/shoppie-project/) ⬅️
-*(Replace the link above with your actual GitHub Pages link after deployment)*
 
 ![Project Screenshot](./images/shoppie-screenshot.png)
 *(To make this work, add a screenshot named `shoppie-screenshot.png` to your `images` folder)*
