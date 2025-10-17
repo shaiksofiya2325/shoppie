@@ -45,20 +45,6 @@ A responsive, client-side eCommerce website built from scratch using **HTML, CSS
 
 ---
 
-## 🚀 How to Run Locally
-
-To run this project on your local machine, follow these simple steps:
-
-1.  **Clone the repository** (or download the files as a ZIP):
-    ```bash
-    git clone [https://github.com/your-username/shoppie-project.git](https://github.com/your-username/shoppie-project.git)
-    ```
-2.  **Navigate to the project directory:**
-    ```bash
-    cd shoppie-project
-    ```
-3.  **Open the `index.html` file** in your favorite web browser. No special servers or dependencies are needed!
-
 ---
 
 ## 📂 Project Structure
